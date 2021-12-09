@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <img src="images/contact/shape.png" class="square" alt="" />
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">Let's get in touch</h3>
+          <p class="text">
+            I respond asap, already clients can use discord.
+            <br>
+            You may only use this email for contacting me to get information about my works, 
+            copyright, prints and commissions/services.
+          </p>
+
+          <div class="info">
+            <div class="information">
+              <i class="fa fa-map-o"></i>
+              <p>Alpina Nui, Easter Island</p>
+            </div>
+            <div class="information">
+              <i class="fa fa-envelope-o"></i>
+              <p>sonrazz@outlook.com</p>
+            </div>
+            <div class="information">
+              <i class="fa fa-telegram"></i>
+              <p><a href="https://t.me/SonRazz7">@SonRazz</a></p>
+            </div>
+            <div class="information">
+              <i class="fab fa-discord"></i>
+              <p>SonRazz#0581</p>
+            </div>
+          </div>
+
+          <div class="social-media">
+            <p>Social Connections :</p>
+            <div class="social-icons">
+              <a href="https://www.twitch.tv/sonrazz">
+                <i class="fa fa-twitch"></i>
+              </a>
+              <a href="https://twitter.com/Son_Razz">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://www.instagram.com/cloudrazz/">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://www.youtube.com/channel/UC-0xNndVoGrFRbtoybgZo2A">
+                <i class="fa fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+
+          <form action="https://formspree.io/f/xlezeeey" autocomplete="off" method="post" id="my-form">
+            <h3 class="title">Contact us</h3>
+            <div class="input-container">
+              <input type="text" name="name" class="input" />
+              <label for="">Username</label>
+              <span>Username</span>
+            </div>
+            <div class="input-container">
+              <input type="email" name="email" class="input" />
+              <label for="">Email</label>
+              <span>Email</span>
+            </div>
+            <div class="input-container">
+              <input type="tel" name="phone" class="input" />
+              <label for="">Phone (not obligatory)</label>
+              <span>Phone (not obligatory)</span>
+            </div>
+            <div class="input-container textarea">
+              <textarea name="message" class="input"></textarea>
+              <label for="">Message</label>
+              <span>Message</span>
+            </div>
+            <input type="submit" value="Send" class="btn" />
+          </form>
+        </div>
+        <div id="status"></div>
+      </div>
+    </div>
+    <script src="js/contact.js"></script>
+  </body>
+</html>
