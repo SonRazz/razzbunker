@@ -202,10 +202,11 @@ h1{
 
 /*Comments*/
 #disqus_thread{
-  margin: auto;
-  max-width: 1000px;
+  margin: 2rem auto;
+  max-width: 900px;
+  width: 90%;
+  background: #222222;
 }
-
 
 /*footer*/
 footer{
