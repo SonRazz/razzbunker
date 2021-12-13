@@ -203,6 +203,7 @@ h1{
 /*Comments*/
 #disqus_thread{
   margin: auto;
+  max-width: 1000px;
 }
 
 
