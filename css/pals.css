@@ -67,68 +67,75 @@ h1{
 
 /*Navigation Menu*/
 .navigation ul{
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  list-style: none;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: .015em;
+  justify-content: center
 }
 .navigation{
-    width: 600px;
-    margin: 15px auto;
-    margin-bottom: 100px;
-    background: #222222;
-    border: 1px rgba(255, 255, 255, 0.288) solid;
-    border-radius: 5px;
-    cursor: pointer;
+  max-width: 1920px;
+  margin-top: 10px;
+  margin-bottom: 150px;
+  background: #222222;
+  cursor: pointer;
+  text-align: center;
+  justify-content: space-between;
 }
 .menu > li{
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 .menu >li >a{
-    display: block;
-    padding: 15px 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    color: #f1f1f1;
-    transition: all 0.5s ease;
+  display: block;
+  padding: 15px 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: #f1f1f1;
+  transition: all 0.5s ease;
 }
 .menu >li >a:hover{
-    color: #0c8ec4;
-    background: #151515;
+  color: #0c8ec4;
+  background: #151515;
 }
 
 /* Categorias SubMenu*/
 .submenu{
-    position: absolute;
-    background: #333333;
-    width: 200%;
-    visibility: hidden;
-    opacity: 0;
-    transition: all 0.3s ease;
-    border-radius: 5px;
+  text-align: center;
+  position: absolute;
+  background: #333333;
+  width: 100%;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s ease;
+  border-radius: 5px;
 }
 .submenu >li >a{
-    display: block;
-    padding: 15px 20px;
-    color: #f1f1f1;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
+  justify-content: space-between;
+  display: block;
+  padding: 15px 15px;
+  color: #f1f1f1;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: .015em;
 }
 .submenu a{
-    transition: all 0.5s ease;
+  transition: all 0.3s ease;
 }
 .submenu a:hover{
-    background: #151515;
-    color: #0c8ec4;
+  background: #151515;
+  color: #0c8ec4;
 }
 .menu >li:hover .submenu{
-    visibility: visible;
-    opacity: 1;
+  visibility: visible;
+  opacity: 1;
 }
-
 
 /*Text Introduction*/
 .update{
@@ -179,16 +186,19 @@ h1{
     color: #0B7CAC;
 }
 
+
 /*footer*/
 footer{
-    margin-top: 50px;
-    position: absolute;
-    box-sizing: border-box;
-    background: #171717;
-    height: auto;
-    width: 100%;
-    padding-top: 20px;
-    color: #f1f1f1;
+  margin-top: 150px;
+  position: absolute;
+  box-sizing: border-box;
+  background: #171717;
+  height: auto;
+  width: 100%;
+  padding-top: 20px;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: .015em;
 }
 .socials{
     list-style: none;

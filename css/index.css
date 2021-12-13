@@ -168,6 +168,7 @@ h1{
     color: #13aff0;
 }
 
+
 /*footer*/
 footer{
   margin-top: 150px;
@@ -178,6 +179,8 @@ footer{
   width: 100%;
   padding-top: 20px;
   color: #fff;
+  font-weight: 400;
+  letter-spacing: .015em;
 }
 .socials{
   list-style: none;
