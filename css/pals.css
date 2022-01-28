@@ -186,6 +186,19 @@ h1{
     color: #0B7CAC;
 }
 
+.update .social a{
+    font-size: 1.4rem;
+    margin: 0 5px;
+    color: #13aff0;
+    text-decoration: none;
+    font-weight: 400;
+    letter-spacing: .015em;
+    transition: all 0.5s ease;
+}
+.update .social a:hover{
+    color: #0B7CAC;
+}
+
 
 /*footer*/
 footer{
