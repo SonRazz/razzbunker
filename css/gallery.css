@@ -98,23 +98,24 @@ nav{
   font-size: 14px;
   letter-spacing: .015em;
   font-weight: 400;
+  background-color: #222222;
 }
 .navigation{
   width: 100%;
   margin: 5px;
   text-align:center;
 }
-.menu > li{
+.menu li{
   position: relative;
   display: inline-block;
 }
-.menu >li >a{
+.menu li a{
   display: block;
   padding: 5px 15px;
   text-decoration: none;
   color: #13aff0;
 }
-.menu >li >a:hover{
+.menu li a:hover{
   color: #0B7CAC;
   transition: all .5s;
 }
