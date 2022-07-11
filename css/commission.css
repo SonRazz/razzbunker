@@ -1,0 +1,30 @@
+/*commissions*/
+.title-pr{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 40px;
+    color: #f1f1f1;
+    letter-spacing: 1px;
+    font-weight: 400;
+  }
+  .prices{
+    color: #f1f1f1;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .com-grid{
+    padding: 0;
+    list-style: none;
+    display: block;
+    text-align: center;
+    width: 20%;
+    border-radius: 5px;
+    margin: 40px;
+  }
+  .card-img img{
+    width: 100%;
+  }

@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+::selection{
+  color: #f1f1f1;
+  background: #0c8ec4;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #171717;
+  margin: 0;
+  padding: 0;
+}
+
+.main-header{
+  font-family: 'Gotham';
+  width: auto;
+  padding: 180px;
+  text-align: center;
+  background-image: url(../images/clouds_01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+}
+.color-overlay{
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #171717;
+  opacity: .20;
+  position: absolute;
+}
+h1{
+  z-index: 1;
+  color: #f1f1f1;
+  text-shadow: 1px 1px 2px rgb(0 0 0 / 37%);
+  font-size: 45px;
+  position: relative;
+}
+
+/*Navigator Head*/
+.wrapper nav{
+  max-width: 1920px;
+  display: flex;
+  justify-content: center;
+  margin: 0px auto;
+  color: #0c8ec4;
+  display: flex;
+}
+.wrapper .items{
+  display: flex;
+  max-width: 900px;
+  width: 100%;
+  justify-content: space-between;
+}
+nav{
+  background: #222222;
+}
+.items span{
+  padding: 18px 25px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  color: #f1f1f1;
+  transition: all 0.3s ease;
+  font-size: 15px;
+  letter-spacing: .015em;
+  font-weight: 400;
+}
+.items a{
+  text-decoration: none;
+  color: #f1f1f1;
+  transition: all 0.3s ease;
+}
+.items span.active{
+  background: #151515;
+  color: #0c8ec4
+}
+.items span:hover{
+  color: #13aff0;
+}
+
+/*Navigation SubMenu*/
+.navigation ul{
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  list-style: none;
+  font-size: 14px;
+  letter-spacing: .015em;
+  font-weight: 400;
+  background-color: #222222;
+}
+.navigation{
+  width: 100%;
+  margin: 5px;
+  text-align:center;
+}
+.menu li{
+  position: relative;
+  display: inline-block;
+}
+.menu li a{
+  display: block;
+  padding: 5px 15px;
+  text-decoration: none;
+  color: #13aff0;
+}
+.menu li a:hover{
+  color: #0B7CAC;
+  transition: all .5s;
+}
+
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  box-sizing: border-box;
+  position: relative;
+}
+.gallery .image{
+  width: calc(100% / 4);
+  padding: 2px;
+}
+
+.gallery .image a{
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+.gallery .image img{
+  width: 100%;
+  vertical-align: middle;
+  transition: all 0.5s ease;
+  filter: grayscale(100%);
+  transition: 0.5s;
+  position: relative;
+}
+.gallery .image:hover img{
+  transform: scale(1.02);
+  filter: grayscale(0);
+}
+
+.overlay{
+  box-sizing: border-box;
+  margin: 15px;
+  border: 5px;
+  vertical-align: middle;
+  position: absolute;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  opacity: 0;
+  transition: 0.5s;
+  padding-top: 180px;
+}
+.gallery .image:hover .overlay{
+  opacity: 1;
+}
+.overlay .title{
+  font-weight: 800;
+  font-size: 15px;
+  color: #171717;
+}
+.overlay .info{
+  font-size: 16px;
+}
+
+/*Responisve Font size legend*/
+@media (max-width: 1920px) {
+  .overlay .title + .info{
+    width: 100%;
+}
+}
+@media (max-width: 940px) {
+  .overlay .title{
+    opacity: 0;
+  }
+}
+@media (max-width: 940px) {
+  .overlay .info{
+    opacity: 0;
+  }
+}
+
+/*animation selection*/
+.gallery .image.hide{
+  display: none;
+}
+.gallery .image.show{
+  animation: animate 0.4s ease;
+}
+@keyframes animate {
+  0%{
+    transform: scale(0.5);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 1920px) {
+  .gallery .image{
+    width: calc(100% / 7);
+  }
+}
+@media (max-width: 1800px) {
+  .gallery .image{
+    width: calc(100% / 5);
+  }
+}
+@media (max-width: 1200px) {
+  .gallery .image{
+    width: calc(100% / 4);
+  }
+}
+@media (max-width: 768px) {
+  .gallery .image{
+    width: calc(100% / 3);
+  }
+}
+@media (max-width: 700px) {
+  .wrapper nav .items{
+    max-width: 600px;
+  }
+  nav .items span{
+    padding: 7px 15px;
+  }
+}
+@media (max-width: 200px) {
+  .wrapper{
+    margin: 30px auto;
+  }
+  .wrapper nav .items{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  nav .items span{
+    margin: 5px;
+  }
+  .gallery .image{
+    width: 100%;
+  }
+}
