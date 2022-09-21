@@ -154,3 +154,9 @@ body{
   font-size: small;
   color: #0c8ec4;
 }
+
+.footer{
+  width: 100% !important;
+  height: 120px;
+  margin: 0;
+}
