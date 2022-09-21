@@ -160,3 +160,8 @@ body{
   height: 120px;
   margin: 0;
 }
+.navbar{
+  width: 100% !important;
+  height: 80px;
+  margin: 0;
+}
