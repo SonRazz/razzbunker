@@ -155,13 +155,14 @@ body{
   color: #0c8ec4;
 }
 
-.footer{
+iframe{
   width: 100% !important;
+}
+.footer{
   height: 120px;
   margin: 0;
 }
 .navbar{
-  width: 100% !important;
   height: 80px;
   margin: 0;
 }
