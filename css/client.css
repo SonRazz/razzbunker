@@ -6,14 +6,11 @@ body{
   overflow-x: hidden;
 }
 .main-header{
-  font-family: 'Gotham';
   width: auto;
-  padding: 180px;
-  text-align: center;
-  background-image: url(../images/clouds_01.jpg);
+  height: 600px;
+  background-image: url(../images/header/header.png),url(../images/header/header_sandman.jpg);
   background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: center;
   background-size: cover;
   position: relative;
 }
@@ -27,22 +24,25 @@ body{
   position: absolute;
 }
 .main-header h1{
+  font-family: 'Gotham';
+  padding-top: 25rem;
+  margin: auto;
   z-index: 1;
   color: #f1f1f1;
   text-shadow: 1px 1px 2px rgb(0 0 0 / 37%);
-  font-size: 45px;
+  font-size: 40px;
   position: relative;
   text-align: center;
+  box-sizing: border-box;
 }
 
 /*Mini Navigator*/
 .navigation-2{
   width: 100%;
-  margin: 5px;
+  margin-top: 5px;
   text-align:center;
 }
 .navigation-2 ul{
-  margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -55,7 +55,6 @@ body{
 }
 .menu-2 >li >a{
   display: block;
-  padding: 5px;
   text-decoration: none;
   color: #13aff0;
   font-size: 14px;
@@ -109,25 +108,26 @@ body{
 
 /*Large View Update*/
 .update{
-  font-weight: 400;
-  font-size: 14px;
-  color: #bbb;
+  width: 800px;
+  height: auto;
   margin: auto;
   margin-top: 50px;
   margin-bottom: 60px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #bbb;
   text-decoration: none;
-  height: auto;
-  width: 628px;
   border-radius: 10px;
   padding: 15px;
   background: #222222;
   box-shadow: 0 5px 15px rgba(0, 0, 0, .2);
+  text-align: center;
 }
 .update b{
   font-size: 16px;
-  color: #13aff0;
   font-weight: 300;
   letter-spacing: 1px;
+  color: #f1f1f1;
 }
 .update p{
   line-height: 2;
@@ -155,17 +155,25 @@ body{
   color: #0c8ec4;
 }
 
-iframe{
-  width: 100% !important;
-}
+
 .footer{
   height: 120px;
   margin: 0;
+  width: 100% 
 }
 .navbar{
   height: 80px;
   margin: 0;
+  width: 100% 
 }
 .client{
+  margin: 20px auto 0;
+  margin-right: 0;
+  border-radius: 10px;
+}
+
+.image{
+  width: 100%;
+  border-radius: 10px;
   margin: 20px auto 0;
 }
