@@ -8,7 +8,7 @@ body{
 .main-header{
   width: auto;
   height: 600px;
-  background-image: url(../images/header/header.png),url(../images/header/header_sandman.jpg);
+  background-image: url(../../images/header/header.png),url(../../images/header/header_sandman.jpg);
   background-position: center;
   background-attachment: center;
   background-size: cover;
