@@ -5,9 +5,14 @@
         <meta charset="UTF-8">
         <meta name="description" content="A Bunker to stay safe from the world">
         <meta name="keywords" content="web art, sonrazz, Portfolio">
+
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/index_gallery.css">
         
+        <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+        <script src="js/lightbox-plus-jquery.min.js"></script>
+
         <link rel="stylesheet" href="https://use.fontawesome.com/relase/v5.6.3/css/all.css">
         <script src="https://kit.fontawesome.com/1a9d120868.js" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -16,7 +21,16 @@
         <link rel="icon" type="image/png" href="images/favicon.png">
     </head>
     
-    
+    <script>
+        lightbox.option({
+          'disableScrolling': true,
+          'showImageNumberLabel': false,
+          'alwaysShowNavOnTouchDevices': true,
+          'fadeDuration': 200,
+          'imageFadeDuration': 200,
+          'wrapAround': true,
+        })
+    </script>
 
     <body id="body">
         <div class="main-header">
@@ -36,6 +50,22 @@
         </section>
 
         <iframe class="navbar" src="navbar.html" frameborder="0"></iframe>
+        
+        <div class="gallery">
+            <div class="image"><a href="users/sonrazz/2023/12.jpg" data-lightbox="mygallery"><img src="images/thumb-effect.png" class="effect"><img src="users/sonrazz/2023/crop/12.jpg" class="crop"><div class="overlay"><div class="title"></div><p class="info">Adi Pogchamp</p></div></a></div>
+            <div class="image"><a href="users/sonrazz/2023/11.jpg" data-lightbox="mygallery"><img src="images/thumb-effect.png" class="effect"><img src="users/sonrazz/2023/crop/11.jpg" class="crop"><div class="overlay"><div class="title"></div><p class="info">Yugo full Stop</p></div></a></div>
+            <div class="image"><a href="users/sonrazz/2023/10.jpg" data-lightbox="mygallery"><img src="images/thumb-effect.png" class="effect"><img src="users/sonrazz/2023/crop/10.jpg" class="crop"><div class="overlay"><div class="title"></div><p class="info">Beach</p></div></a></div>
+            <div class="image"><a href="users/sonrazz/2023/09.jpg" data-lightbox="mygallery"><img src="images/thumb-effect.png" class="effect"><img src="users/sonrazz/2023/crop/09.jpg" class="crop"><div class="overlay"><div class="title"></div><p class="info">Azz Nights</p></div></a></div>
+            <div class="image"><a href="users/sonrazz/2023/08.jpg" data-lightbox="mygallery"><img src="images/thumb-effect.png" class="effect"><img src="users/sonrazz/2023/crop/08.jpg" class="crop"><div class="overlay"><div class="title"></div><p class="info">Marco</p></div></a></div>
+            <div class="image"><a href="users/sonrazz/2023/07.jpg" data-lightbox="mygallery"><img src="images/thumb-effect.png" class="effect"><img src="users/sonrazz/2023/crop/07.jpg" class="crop"><div class="overlay"><div class="title"></div><p class="info">Drawing with Foggy</p></div></a></div>
+            <div class="image"><a href="users/sonrazz/2023/06.jpg" data-lightbox="mygallery"><img src="images/thumb-effect.png" class="effect"><img src="users/sonrazz/2023/crop/06.jpg" class="crop"><div class="overlay"><div class="title"></div><p class="info">Drawphile with frends</p></div></a></div>
+            <div class="image"><a href="users/sonrazz/2023/05.jpg" data-lightbox="mygallery"><img src="images/thumb-effect.png" class="effect"><img src="users/sonrazz/2023/crop/05.jpg" class="crop"><div class="overlay"><div class="title"></div><p class="info">Vrising</p></div></a></div>
+            <div class="image"><a href="users/sonrazz/2023/04.jpg" data-lightbox="mygallery"><img src="images/thumb-effect.png" class="effect"><img src="users/sonrazz/2023/crop/04.jpg" class="crop"><div class="overlay"><div class="title"></div><p class="info">Stanley</p></div></a></div>
+            <div class="image"><a href="users/sonrazz/2023/03.jpg" data-lightbox="mygallery"><img src="images/thumb-effect.png" class="effect"><img src="users/sonrazz/2023/crop/03.jpg" class="crop"><div class="overlay"><div class="title"></div><p class="info">Simon</p></div></a></div>
+            <div class="image"><a href="users/sonrazz/2023/02.jpg" data-lightbox="mygallery"><img src="images/thumb-effect.png" class="effect"><img src="users/sonrazz/2023/crop/02.jpg" class="crop"><div class="overlay"><div class="title"></div><p class="info">From the grave!</p></div></a></div>
+            <div class="image"><a href="users/sonrazz/2023/01.jpg" data-lightbox="mygallery"><img src="images/thumb-effect.png" class="effect"><img src="users/sonrazz/2023/crop/01.jpg" class="crop"><div class="overlay"><div class="title"></div><p class="info">Imo and Adi</p></div></a></div>
+            <div class="image"><a href="users/sonrazz/2023/00.jpg" data-lightbox="mygallery"><img src="images/thumb-effect.png" class="effect"><img src="users/sonrazz/2023/crop/00.jpg" class="crop"><div class="overlay"><div class="title"></div><p class="info">Drawphile</p></div></a></div>
+        </div>        
 
         <!--Mini Updates Blog-->
         <p id=quickview>Quick View Updates</p>
