@@ -251,3 +251,15 @@ nav{
     width: 100%;
   }
 }
+
+iframe{
+  width: 100% !important;
+}
+.footer{
+  height: 120px;
+  margin: 0;
+}
+.navbar{
+  height: 80px;
+  margin: 0;
+}
