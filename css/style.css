@@ -5,35 +5,6 @@ body{
   padding: 0;
   overflow-x: hidden;
 }
-.main-header{
-  font-family: 'Gotham';
-  width: auto;
-  padding: 180px;
-  text-align: center;
-  background-image: url(../images/clouds_01.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  position: relative;
-}
-.color-overlay{
-  width: 100%;
-  top: 0;
-  left: 0;
-  height: 100%;
-  background: #171717;
-  opacity: .20;
-  position: absolute;
-}
-.main-header h1{
-  z-index: 1;
-  color: #f1f1f1;
-  text-shadow: 1px 1px 2px rgb(0 0 0 / 37%);
-  font-size: 45px;
-  position: relative;
-  text-align: center;
-}
 
 /*Large View Update*/
 .update{
