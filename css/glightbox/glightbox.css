@@ -412,7 +412,7 @@ a:hover{
   color: #0c8ec4;
 }
 
-.glightbox-open a{
+.glightbox-open{
   overflow: hidden;
 }
 
