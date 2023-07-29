@@ -401,9 +401,18 @@
 
 .glightbox-desc {
   display: none !important;
+
+}
+.link-desc{
+  text-decoration: none;
+  transition: all 0.5s ease;
+  color: #13aff0;
+}
+a:hover{
+  color: #0c8ec4;
 }
 
-.glightbox-open {
+.glightbox-open a{
   overflow: hidden;
 }
 
@@ -501,7 +510,7 @@ iframe.wait-autoplay {
 /*Skin */
 
 .glightbox-clean .gslide-description {
-  background: #fff;
+  background: #222222;
 }
 
 .glightbox-clean .gdesc-inner {
@@ -512,7 +521,7 @@ iframe.wait-autoplay {
   font-size: 1em;
   font-weight: normal;
   font-family: arial;
-  color: #000;
+  color: #f1f1f1;
   margin-bottom: 19px;
   line-height: 1.4em;
 }
@@ -522,6 +531,7 @@ iframe.wait-autoplay {
   margin-bottom: 0;
   font-family: arial;
   line-height: 1.4em;
+  color: #bbb;
 }
 
 .glightbox-clean .gslide-video {
