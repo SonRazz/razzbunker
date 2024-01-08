@@ -21,7 +21,7 @@ footer{
 .socials a{
   text-decoration: none;
   color: #f1f1f1;
-  }
+}
 .socials a i{
   font-size: 1.3rem;
   transition: all 0.5s ease;
@@ -33,6 +33,7 @@ footer{
   background: #171717;
   padding: 2px 0;
   text-align: center;
+  text-decoration: none;
 }
 .dmca{
   font-size: 14px;
@@ -42,4 +43,13 @@ footer{
   align-items: center;
   display: flex;
   justify-content: center;
+  color: #96969a
+}
+.dmca a{
+  text-decoration: none;
+  color: #96969a;
+  transition: all 0.5s ease;
+}
+.dmca a:hover{
+  color: #ffffff
 }
