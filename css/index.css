@@ -29,6 +29,10 @@
   font-size: 12px;
 }
 
+h1{
+  font-size: 24px;
+  color: #f1f1f1;
+}
 #quickview{
   font-size: 18px;
   text-align: center;
